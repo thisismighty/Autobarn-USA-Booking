@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('âº'), url('../fonts/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+		url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('âº'), url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+		url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	color:#262626;
+	font-family:arial,sans-serif;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+
+aside,
+header,
+article{
+	width: 990px;
+	margin: 0 auto;
+}
+
+header > img{
+	display:block;
+	margin:10px 0;
+}
+a img{
+	border:none;
+}
+
+#form-error-get-a-quote,
+#form-error-book-now,
+#form-error-check,
+#form-error{
+	border-radius: 15px;
+	background-color: #c84000;
+	padding: 10px 20px;
+	color: #fff;
+	font-family:Montserrat-Bold,arial,sans-serif;
+}
+#form-error-get-a-quote a,
+#form-error-book-now a,
+#form-error-check a,
+#form-error a{
+	color:#fff;
+}
+#form-error-get-a-quote p,
+#form-error-book-now p,
+#form-error-check p,
+#form-error p{
+	padding:0;
+	margin:0;
+}
+

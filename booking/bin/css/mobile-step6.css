@@ -1,0 +1,32 @@
+article{
+	padding:20px 30px 50px;
+}
+
+nav > div{
+	padding:20px 0;
+}
+
+nav .step_number span{
+	margin:auto;
+}
+.content-column,
+.contact-column{
+	float:none;
+	width:100%;
+}
+
+
+.contact-column.bottom{
+	margin-top:0px;
+}
+
+.flags{
+	max-width: none;
+}
+
+.contact-column > img{
+}
+
+.booking-content{
+	overflow:visible;
+}

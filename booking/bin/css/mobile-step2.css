@@ -1,0 +1,158 @@
+aside div.car{
+	display:block;
+	background-color:#f1f1f1;
+		border-radius: 10px;
+		margin-bottom:22px;
+		box-sizing: border-box;
+		padding:20px;
+		
+}
+
+aside div.car > div {
+	width:100%;
+	display:block;
+	border-radius: 0;
+	box-sizing: border-box;
+	background-color:transparent;
+	text-align: center;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.carImage img.most-popular{
+	max-width:150px;
+	left:-25px;
+	top:0;
+}
+
+.carAvaliability .booked_out{
+	margin:auto;
+}
+
+.carImage{
+	padding:0;
+}
+.carImage img{
+	max-width: none;
+}
+
+.carImage a{
+	width:100%;
+}
+.carDetails{
+	padding: 0;
+	margin-bottom:0 !important;
+}
+.carDetails > div{
+	text-align:left;
+}
+
+aside div.car > div.carAvaliability{
+	display:table;
+	margin-bottom:0;
+	padding-top:0px;
+	width:100% !important;
+}
+
+.carAvaliabilityText{
+	display:table-row;
+	margin-right:0;
+}
+
+.carAvaliability .booked_out{
+	width:100%;
+	display: table-cell;
+	vertical-align: middle
+}
+
+aside div.car > .carDetails{
+	text-align: left;
+}
+
+
+.show-lg{
+	display: none;
+}
+
+.show-sm{
+	display:block;
+}
+
+.show-sm .numppl{
+	margin-top:0;
+}
+
+form > div{
+	border-bottom:1px solid #e06a00;
+	border-top:	1px solid #fab65f;
+	display:block;
+	overflow:hidden;
+}
+
+form > div:last-of-type {
+	border-bottom:none;
+}
+
+form > div > div{
+	display:block;
+	border:none;
+}
+
+form > div > div:first-of-type{
+	padding-left:20px;
+}
+
+form > div > div:last-of-type{
+	padding-right:15px;
+}
+
+.inputLabel{
+	padding-bottom:0;
+}
+
+nav > div{
+	padding:20px 0;
+}
+
+nav .step_number span{
+	margin:auto;
+}
+
+.show-lg.emptycell{
+	display:none;
+}
+
+.carAvaliability .carAvaliabilityText{
+	margin-right:0;
+	width:100%;
+	float:none;
+}
+
+.book_now{
+	display:table;
+	width:100%;
+}
+
+.carAvaliability .book_now > div{
+	width:100%;
+	margin:0;
+	display: table-row !important;
+}
+
+.carAvaliability .book_now .book_details div{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.carAvaliability .book_now .book_details span{
+	display: block;
+}
+
+aside div.car > div.carImage a{
+	display:none;
+}
+.carAvaliability .book_now .book_select a{
+	font-size:24px;
+	padding:12px 0;
+}

@@ -1,0 +1,139 @@
+article > div{
+	padding:20px;
+}
+
+.contact-column.left{
+	width:100%;
+	margin:0;
+}
+
+.content-column.top{
+	width:100%;
+}
+
+nav > div{
+	padding:20px 0;
+}
+
+nav .step_number span{
+	margin:auto;
+}
+
+.contact-column.left img{
+	width:100%;
+}
+
+.customerinfo > div > div{
+	margin:0;
+	display: block;
+	width:100%;
+}
+
+.customerinfo > div > div label{
+	width:100%;
+	margin-right:2%;
+	display:block;
+}
+
+.customerinfo > div > div input, .customerinfo > div > div select{
+	width:100%;
+	display:block;
+	margin-bottom:5px;
+	line-height:24px;
+	font-size:14px;
+	border:1px solid #c9ced2;
+	border-radius:3px;
+	height:28px;
+	padding:2px 5px;
+	vertical-align: top;
+	margin-bottom:10px;
+}
+
+.customerinfo > div > div:nth-child(1) input{
+	margin-right:0;
+}
+
+.customerinfo > div > div:nth-child(2) label{
+	margin-left:0;
+}
+
+#car .car .image a{
+	margin-bottom:20px;
+}
+
+#car > div:nth-child(3) {
+	display:block;
+	width:100%;
+	
+}
+#car > div.car{
+	display:block;
+	width:100%;
+	margin:0;
+	
+}
+
+
+
+#book_now_button, .backbutton{
+	width:100%;
+	 padding: 10px 0;
+}
+
+#price th, #price td{
+	padding:0 0 20px 0;
+}
+
+#price td:nth-child(3){
+	text-align: right;
+}
+
+#car .car > div{
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+	padding:20px;
+}
+
+#car .car .image,  #car .car .locationContainer{
+	display:block;
+	width:100%;
+}
+
+#car .car .image img.main{
+	width:100%;
+}
+#car .car > .image img.most-popular{
+	width:30%;
+}
+
+#car .car > div:nth-child(1) {
+    padding-left: 20px;
+}
+
+
+#car .car > div .cartotal {
+	width:100%;
+	text-align:center;
+}
+
+#price_details .details{
+	margin-left:0;
+	width:100%;
+	empty-cells: show;
+}
+
+#price_details .details td{
+	empty-cells: show;
+}
+
+.cartotal a.show, .cartotal .hide{
+	padding-bottom:10px;
+}
+
+.book-now-button .desktop{
+	display:none;
+}
+.book-now-button .mobile{
+	display:inline-block;
+}

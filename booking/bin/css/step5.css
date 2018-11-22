@@ -1,0 +1,49 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+#frmAuric{
+	//max-width: 300px;
+	height:300px;
+	margin:0;
+	width:100%;
+}
+
+article{
+	text-align: center;
+	padding:20px;
+	box-sizing: border-box;
+	//background-color:#f1f1f1;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom:20px;
+	border-bottom: 2px solid #f1f1f1;
+	border-left: 2px solid #f1f1f1;
+	border-right: 2px solid #f1f1f1;
+}
+
+article > div{
+	max-width:350px;
+	width:100%;
+	margin:auto;
+}
+article > div img{
+	margin:20px 0;
+}
+
+h2{
+	font-family: Montserrat-Bold,arial,sans-serif;
+	font-weight:normal;
+	margin:0;
+}
+
+.bookingno{
+	margin-bottom:5px;
+}
+#frmAuric{
+	/* max-width:387px; */
+}
+
+input[type=text], input[type=button] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}

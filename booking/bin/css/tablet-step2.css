@@ -1,0 +1,7 @@
+nav .step_name {
+	display:none;
+}
+
+nav .step_number span {
+	margin:auto;
+}

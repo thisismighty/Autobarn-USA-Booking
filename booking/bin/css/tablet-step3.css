@@ -1,0 +1,37 @@
+nav .step_name {
+	display:none;
+}
+
+nav .step_number span {
+	margin:auto;
+}
+
+.location tr th{
+	width:140px;
+}
+
+.location tr td{
+	width:calc(100% - 140px);
+}
+
+#car .car > .locationContainer > div > .num-ppl{
+	margin-left:0;
+}
+
+#car table{
+	margin-left:0;
+	width:100%;
+}
+
+#car .car > div:nth-child(2){
+	padding:20px 0;
+}
+
+#car .car > div:nth-child(3){
+	width:23%;
+	padding-left:0;
+	min-width: 136px;
+}
+#price_details .details{
+	margin-left:3px;
+}

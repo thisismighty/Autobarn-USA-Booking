@@ -1,0 +1,71 @@
+nav{
+	display:table;
+	width:100%;
+}
+nav .current{
+	background-color:#d84500;
+	color:#262626;
+}
+
+nav .done:hover{background-color:#d84500}
+nav .step_number{
+	width:32px;
+	height:32px;
+}
+nav .step_number span{
+	display:block;
+	background-color:#f89829;
+	color:#262626;
+	border-radius:50px;
+	text-align:center;
+	line-height:28px;
+	width:30px;
+	height:30px;
+}
+nav .current .step_number span{
+	border:2px solid #262626;
+	width:32px;
+	height:32px;
+}
+nav .done .step_number span{
+	position:relative;
+}
+nav .done img{
+	display:block;
+	position:absolute;
+	top:7px;
+	left:8px;
+}
+nav .done .step_name{
+	color:#fefefe;
+}
+nav .step_name{
+	line-height:30px;
+	padding-left:13px;
+}
+nav > div{
+	background-color:#262626;
+	border-right-color:#50504f;
+	color:#fefefe;
+	text-transform:uppercase;
+	font-family:Montserrat-Bold,arial,sans-serif;
+	display:table-cell;
+	padding:20px 15px;
+	border-right:1px solid #50504f;
+}
+nav > div:first-of-type{
+	border-radius:15px 0 0 0;
+}
+nav > div:last-of-type{
+	border-radius:0 15px 0 0;
+	border-right:none;
+}
+nav > div > a{
+	border:none;
+	text-decoration:none;
+	display:table;
+	width:100%;
+}
+nav > div > a > div{
+	display:table-cell;
+}

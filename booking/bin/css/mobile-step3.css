@@ -1,0 +1,162 @@
+#car .car > div:nth-child(1){
+	padding-left:20px;
+}
+#car .car > div:nth-child(3){
+	padding-right: 20px;
+}
+
+#car{
+	display:block;
+}
+#car .car{
+	display:block;
+	background-color:#f1f1f1;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#car .car > div{
+	display:block;
+	background-color:transparent;
+	text-align:left;
+	width:100% !important;
+	box-sizing: border-box;
+}
+
+#car .car > .image img.main{
+	width:100%;
+	margin:0;
+}
+#car .car > .image img.most-popular{
+	width:30%;
+}
+
+#car .car > div .cartotal{
+	width:100%;
+	padding:0;
+	float: none;
+}
+
+
+
+#car .car > div .cartotal span{
+	display: block;
+}
+
+.location tr th{
+	width:50%;
+}
+
+.location tr td{
+	width:50%;
+}
+
+.capacity.mobile{
+	display:initial;
+}
+.capacity{
+	display:none;
+}
+
+div.costings,
+div.costings > div,
+div.costings > div > div{
+	display:block;
+	width:100% !important;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-bottom:20px;
+}
+div.total{
+	position:relative;
+	top:0;
+}
+div.buttons{
+	position:relative;
+	top:0;
+}
+
+nav > div{
+	padding:20px 0;
+}
+
+nav .step_number span{
+	margin:auto;
+}
+
+.rate-bottom{
+	position: relative;
+	width:100%;
+}
+
+
+.customerdetails label, .customerinfo > div > div input, .customerinfo > div > div select{
+	width:100%;
+	margin-bottom:5px;
+}
+
+.customerdetails input[type=text], .customerdetails select{
+	margin-bottom:10px;
+}
+
+.buttons .calltoaction div{
+	display: block;
+	width:100%;
+}
+
+.buttons .calltoaction div input, .buttons .calltoaction div a{
+	width:100%;
+	
+	margin-top:20px;
+}
+
+.rate-bottom{
+	padding-bottom:0;
+}
+
+
+.rate-bottom, .customerdetails > div {
+	padding:20px;
+}
+
+.customerinfo, .customerinfo > div, .customerinfo > div > div {
+	display:block;
+	width:100%;
+}
+
+
+
+.customerinfo > div > div:nth-child(2) label {
+    margin-left: 0;
+}
+
+.total > div > h4 > span{
+	display:block;
+}
+
+#optional_extras > div > div > div:nth-child(2){
+	width:45%;
+	padding-right:5%;
+}
+
+#optional_extras > div > div > div:nth-child(3){
+	width:25%
+}
+
+.customerinfo > div > div label{
+	width:100%;
+}
+
+#book_now_button{
+	width:100%;
+}
+
+.cartotal a.show, .cartotal .hide {
+	text-align:center;
+}
+
+.buttons .calltoaction .desktop{
+	display:none;
+}
+.buttons .calltoaction .mobile{
+	display:block;
+}

@@ -1,0 +1,40 @@
+.content-column,
+.contact-column{
+	float:none;
+	width:100%;
+}
+h3 span{
+	display:inline;
+}
+.contact-column.bottom{
+	margin-top:0px;
+}
+
+.contact-table tr td:nth-child(1){
+	width:188px;
+}
+
+.contact-table tr td:nth-child(2){
+	width:calc(100% - 188px);
+}
+
+
+.confirmation-content tr th{
+	width:188px;
+}
+
+.confirmation-content tr td{
+	width:calc(100% - 188px);
+}
+nav .step_name {
+	display:none;
+}
+
+nav .step_number span, nav .done .step_number span {
+	margin:auto;
+}
+
+.contact-column > img{
+	margin-left:0;
+	margin-right:0;
+}

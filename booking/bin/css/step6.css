@@ -1,0 +1,270 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+body{
+	font-size:14px;
+	line-height: 1.5em;
+}
+
+.bottom{
+	font-size:14px !important;
+}
+h4{
+	margin:10px 0;
+}
+
+p{
+	margin:0 0 10px 0;
+}
+article{
+	text-align: left;
+	padding:20px 70px 50px 70px;
+	box-sizing: border-box;
+	background-color:#f1f1f1;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom:20px;
+}
+
+article table{
+	width:100%;
+	color:#777;
+}
+
+article table tr th, article table tr td{
+	width:50%;
+}
+
+article table tr th{
+	text-align: right;
+	padding-right:10px;
+}
+
+article table tr td{
+	text-align: left;
+	
+}
+
+.tick{
+	background-color:#f89829;
+	width:40px;
+	height:40px;
+	border:2px solid #000000;
+	border-radius:80px;
+	margin:auto 0 auto 0;
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.tick img{
+	margin:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+h2, h3{
+	font-family:Montserrat-Bold,arial,sans-serif;
+	font-weight:normal;
+	text-align:left;
+}
+h2{
+	text-transform:uppercase;
+	font-size:21px;
+	margin-top:0;
+}
+
+h3{
+	margin-bottom:10px;
+	text-transform:uppercase;
+	display:inline-block;
+	float:left;
+	margin-top:0;
+}
+
+.top h2{
+	display:inline-block;
+	float:left;
+}
+.info {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-column{
+	float:left;
+	width:260px;
+	margin-right:50px;
+	position:relative;
+}
+.contact-column > a{
+	//display:block;
+}
+
+.vehicle-details{
+	background-color: #fb9906;
+    border: medium none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: Montserrat-Bold,arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 13px auto 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    width: 100%;
+}
+
+.clear{
+	clear:both;
+}
+
+.contact-column > img.main{
+	display:block;
+	margin-bottom:15px;
+	margin-top:35px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.contact-column > img.most-popular{
+	position:absolute;
+	top:30px;
+	left:0;
+}
+.content-column{
+	float:right;
+	text-align:left;
+	 width: calc(100% - 310px);
+	padding-bottom:20px;
+}
+
+.content-column.bottom{
+	margin-top:20px;
+}
+
+.content-column.top{
+	border-bottom:1px solid #000000;
+}
+
+.content-column h4,
+.content-column p{
+	color:#777;
+}
+
+.content-column th{
+	vertical-align:top;
+	text-align:left;
+}
+
+.content-column.bottom h4{
+	margin:20px 0 0 0;
+}
+
+.refno{
+	margin-top:0;
+}
+
+.confirmation-content tr th, .confirmation-content tr td {
+    width: auto;
+	line-height:1em;
+}
+
+.confirmation-content tr th{
+	width:188px;
+}
+
+.confirmation-content tr td{
+	width:calc(100% - 188px);
+}
+
+
+
+.contact-table tr td{
+	width:auto;
+	padding:0 0 10px 0;
+	font-size:14px;
+	line-height: 1.5em;
+}
+
+
+
+.skype{
+	color:#000000;
+	text-decoration:none;
+	margin:10px 0;
+}
+
+.skype img{
+	margin-right:10px;
+	vertical-align: middle;
+}
+
+.flags{
+	margin-top:10px;
+	max-width:260px;
+}
+
+.flags tr td{
+	width:auto;
+}
+
+.flags tr td img{
+	width:99%;
+	float:left;
+	margin-right:5px;
+}
+
+.contact-column.bottom{
+	margin-top:-60px;
+}
+
+.booking-title{
+	display: table;
+}
+
+.booking-title > div {
+	display: table-row;
+}
+.booking-title > div > h2{
+	display: table-cell;
+	padding-right:30px;
+}
+
+.booking-title > div > div{
+	display:table-cell;
+	width:40px;
+}
+
+.booking-content{
+	overflow: auto;
+}
+
+.contact-table tr td:nth-child(1){
+	width:170px;
+}
+
+.content-column.bottom a{
+	color:#777;
+}
+
+input[type=text], input[type=button] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+.tb-group{
+	padding-bottom:15px;
+}
+.confirmation-content{
+	font-size:14px;
+}

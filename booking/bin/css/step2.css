@@ -1,0 +1,404 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+form{
+	display:table;
+	width:100%;
+	background-color:#fa9906;
+	border-radius:0 0 15px 15px;
+	margin-bottom:0;
+}
+form > div{
+	display:table-row;
+}
+form > div > div{
+	padding:10px 15px;
+	display:table-cell;
+	font-family:Montserrat-Bold,arial,sans-serif;
+	border-top:1px solid #fab65f;
+	border-bottom:1px solid #e06a00;
+}
+form > div:first-of-type > div{
+	border-top:none;
+}
+form > div:last-of-type > div{
+	border-bottom:none;
+}
+form > div > div:first-of-type{
+	padding-left:38px;
+}
+form > div > div:last-of-type{
+	padding-right:38px;
+}
+form > div > div input,
+form > div > div select{
+	width:100%;
+	vertical-align: middle;
+	background: #f8f8f8;
+	border: 2px solid #ddd;
+	font-size: 16px;
+	color: #888;
+	margin:0;
+	border-radius:4px;
+	box-shadow:none;
+}
+
+form > div > div select{
+	color:#262626;
+}
+
+form input[type="text"]{
+	font-family:arial,sans-serif;
+	padding:5px 10px;
+}
+form select{
+	font-family:arial,sans-serif;
+	padding:5px 10px;
+}
+form input[type="button"]{
+	background-color:#c84000;
+	border:none;
+	color:#fff;
+	padding:7px 10px;
+	font-family:Montserrat-Bold,arial,sans-serif;
+	font-size:14px;
+	line-height:20px;
+}
+form input[type="button"][disabled="disabled"]{
+	background-color:#ddd;
+}
+form input[type="button"]{
+	background-color:#c84000;
+	border:none;
+	color:#fff;
+	padding:7px 10px;
+	font-family:Montserrat-Bold,arial,sans-serif;
+	font-size:14px;
+	line-height:20px;
+	white-space: normal;
+	cursor: pointer;
+}
+aside > #result{
+	display:table;
+	width:100%;
+	border-spacing:0 10px;
+}
+aside div.car{
+	display:table-row;
+	
+}
+aside div.car > div{
+	display:table-cell;
+	vertical-align:top;
+	background-color:#f1f1f1;
+	position:relative;
+}
+aside div.car > div > img,
+aside div.car > div > a{
+	display:block;
+}
+
+
+.carImage{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding:20px;
+	text-align: center;
+	width:20%;
+	
+}
+
+.carImage img{
+	margin:auto;
+	max-width:150px;
+	width:100%;
+}
+.carImage img.most-popular{
+	position:absolute;
+	top:11px;
+	left:-7px;
+	max-width:44%;
+}
+
+.carImage a{
+	background-color: #fb9906;
+	border: medium none;
+	color: #fff;
+	font-family: Montserrat-Bold,arial,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 4px 0;
+	text-decoration:none;
+	border-radius: 4px;
+	margin:0 auto;
+	width:198px;
+}
+
+aside div.car > div.carAvaliability{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	vertical-align: top;
+	padding-top:20px;
+	width:22%;
+}
+
+h2 .main{
+	color:#262626;
+	vertical-align: top;
+	text-transform: uppercase;
+}
+
+.noadults{
+	font-size: 15px;
+	font-family:arial;
+	vertical-align: top;
+	margin-top:10px;
+	display:inline-block;
+}
+
+.carDetails{
+	padding:20px 0;
+	width:55%;
+}
+
+.carDetails h2{
+	margin-bottom:0;
+	margin-top:0;
+	font-size:21px;
+}
+.carDetails h3{
+	margin-top:0;
+	color:#262626;
+	margin-bottom:15px;
+}
+
+
+.book_now .show, .book_now .hide{
+	text-decoration:none;
+	color:#636363;
+	display:block;
+	margin:auto;
+	font-size:14px;
+	padding-top:10px;
+}
+
+.carDetails .details{
+	color:#282a2e;
+}
+
+
+.carDetails .details .numofdays{
+	font-family: Montserrat-Bold,arial,sans-serif;
+	margin-bottom:10px;
+}
+
+.carAvaliability .carAvaliabilityText{
+	border-spacing: 0;
+}
+
+.carAvaliability .booked_out{
+	width:136px;
+	height:90px;
+	background-color: #262626;
+	color:#ffffff;
+	font-family: Montserrat-Bold,arial,sans-serif;
+	text-align:center;
+	margin:auto;
+	border-radius: 4px;
+	margin-right:62px;
+	font-size:24px;
+	box-sizing:border-box;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
+.carAvaliability .book_now .book_details div{
+	width:136px;
+	height:70px;
+	background-color: #262626;
+	color:#ffffff;
+	font-family: Montserrat-Bold,arial,sans-serif;
+	text-align:center;
+	margin:auto;
+	border-radius: 4px;
+	margin-right:62px;
+	font-size:24px;	
+	box-sizing:border-box;
+	display: table-cell;
+	vertical-align: middle;	
+	
+}
+
+.carAvaliability .book_now .book_details .text{
+	color:#ffffff;
+}
+
+.carAvaliability .book_now .book_select a{
+	background-color: #fb9906;
+    border: medium none;
+    border-radius: 4px;
+    color: #262626;
+    font-family: Montserrat-Bold,arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 0;
+    text-decoration: none;
+    width: 198px;
+	display: block;
+	width:100%;
+	text-align: center;
+	margin-top:10px;
+}
+
+
+
+.carAvaliability .carAvaliabilityText{
+	 left: 0;
+    margin: auto;
+	padding: 0 20px 20px 20px;
+    right: 0;
+    width: 136px;
+}
+
+
+.show-lg{
+	display: block;
+}
+
+.show-lg.emptycell{
+	display: table-cell;
+}
+
+.show-sm{
+	display:none;
+}
+
+.mandatoryfee_unknown{
+	/* font-size:15px; */
+}
+
+.details{
+	width:100%;
+}
+
+.details th, .details td{
+	border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    text-align: left;
+    vertical-align: top;
+	font-size:13px;
+	text-align: center;
+}
+
+
+
+.details th{
+	width:20%;
+	
+}
+
+.details th:nth-child(1){
+	width:40%;
+	text-align:left;
+}
+
+
+.details th:nth-child(4){
+	text-align:right;
+}
+
+.details tr td:nth-child(1){
+	text-align:left;
+}
+
+.details tr td:nth-child(4){
+	text-align:right;
+}
+
+.details .total td{
+	color:#c84000;
+	font-weight: bold;
+}
+
+.carDetails .unlimited, .carDetails .show, .carDetails .hide{
+	font-size:13px;
+}
+
+.carDetails .unlimited{
+	margin-bottom:15px;
+	margin-top:10px;
+	color:#777;
+}
+
+.info, .cartitle{
+	display: table-cell;
+	vertical-align: top;
+}
+
+
+.info a{
+	margin-right:10px;
+	text-decoration:none;
+}
+
+.info a img{
+	margin-top:3px;
+}
+	
+.num-ppl{
+	color:#636363;
+	text-transform: uppercase;
+	font-family: Montserrat-Bold,arial,sans-serif;
+	font-weight: normal;
+	font-size:12px;
+	display:block;
+	margin-top:5px;
+}
+
+.num-ppl img{
+	vertical-align: middle;
+}
+
+.tb{
+	display: table;
+	border-spacing: 0;
+}
+
+.tb-row{
+	display: table-row
+}
+
+input[type=text], input[type=button] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+#form-error{
+	margin-top:10px;
+}
+
+#update-search.disabled{
+	background-color:#ddd;
+}
+#change-search,
+#update-search{
+	background-color:#c84000;
+	border:none;
+	color:#fff;
+	padding:7px 10px;
+	font-family:Montserrat-Bold,arial,sans-serif;
+	font-size:14px;
+	line-height:20px;
+	white-space: normal;
+	cursor: pointer;
+	text-align:center;
+}
+#update-search img{
+	display:none;
+	width:11px;
+}
+#update-search.disabled img{
+	display:initial;
+}
