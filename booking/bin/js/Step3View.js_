@@ -142,7 +142,7 @@ Step3.view={
 			,total:total.toFixed(2)
 		});
 	},
-	insurance_option_daily:function(name,desc,subdesc1,subdesc2,subdesc3,id,extradesc,fees,total,checked,display_pop){
+	insurance_option_daily:function(name,desc,id,extradesc,fees,total,checked,display_pop){
 		var pop='';
 		if(display_pop!==false){
 			pop=Template.run(
@@ -155,9 +155,6 @@ Step3.view={
 		return Template.run($('#insurance_option_daily_html').html(),{
 			name:name
 			,desc:desc
-			,subdesc1:subdesc1
-			,subdesc2:subdesc2
-			,subdesc3:subdesc3
 			,id:id
 			,extradesc:extradesc
 			,pop:pop
@@ -166,7 +163,7 @@ Step3.view={
 			,checked:checked?'checked="checked"':''
 		});
 	},
-	insurance_option_percentage:function(name,desc,subdesc1,subdesc2,subdesc3,id,extradesc,fees,total,checked,display_pop){
+	insurance_option_percentage:function(name,desc,id,extradesc,fees,total,checked,display_pop){
 		var pop='';
 		if(display_pop!==false){
 			pop=Template.run(
@@ -179,9 +176,6 @@ Step3.view={
 		return Template.run($('#insurance_option_percentage_html').html(),{
 			name:name
 			,desc:desc
-			,subdesc1:subdesc1
-			,subdesc2:subdesc2
-			,subdesc3:subdesc3
 			,id:id
 			,extradesc:extradesc
 			,pop:pop
@@ -190,7 +184,7 @@ Step3.view={
 			,checked:checked?'checked="checked"':''
 		});
 	},
-	insurance_option_unknown:function(name,desc,subdesc1,subdesc2,subdesc3,id,fees,extradesc,total,checked,display_pop){
+	insurance_option_unknown:function(name,desc,id,fees,extradesc,total,checked,display_pop){
 		var pop='';
 		if(display_pop!==false){
 			pop=Template.run(
@@ -203,9 +197,6 @@ Step3.view={
 		return Template.run($('#insurance_option_unknown_html').html(),{
 			name:name
 			,desc:desc
-			,subdesc1:subdesc1
-			,subdesc2:subdesc2
-			,subdesc3:subdesc3
 			,id:id
 			,extradesc:extradesc
 			,pop:pop

@@ -116,18 +116,12 @@ Step3.controller.insurance_options=function(){
 	for (var i in rcmInsuranceOptions) {
 		var insurancename;
 		var description;
-		var subdesc1;
-		var subdesc2;
-		var subdesc3;
 		var extradesc;
 		var priceInfo;
 		
 		// console.log(rcmInsuranceOptions[i]);
 		insurancename = rcmInsuranceOptions[i].name;
-		description = rcmInsuranceOptions[i].feedescription && rcmInsuranceOptions[i].feedescription.indexOf('.html') < 0 ? rcmInsuranceOptions[i].feedescription : rcmInsuranceOptions[i].name;	
-		subdesc1 = rcmInsuranceOptions[i].feedescription1 ? '<li>' + rcmInsuranceOptions[i].feedescription1 + '</li>' : '';	
-		subdesc2 = rcmInsuranceOptions[i].feedescription2 ? '<li>' + rcmInsuranceOptions[i].feedescription2 + '</li>' : '';	
-		subdesc3 = rcmInsuranceOptions[i].feedescription3 ? '<li>' + rcmInsuranceOptions[i].feedescription3 + '</li>' : '';
+		description = rcmInsuranceOptions[i].feedescription && rcmInsuranceOptions[i].feedescription.indexOf('.html') < 0 ? rcmInsuranceOptions[i].feedescription : rcmInsuranceOptions[i].name;
 		// description = rcmInsuranceOptions[i].name;
 		// console.log(rcmInsuranceOptions[i].feedescription.indexOf('.html'));		
 		extradesc = rcmInsuranceOptions[i].extradesc ? rcmInsuranceOptions[i].extradesc : rcmInsuranceOptions[i].feedescription;	
@@ -161,9 +155,6 @@ Step3.controller.insurance_options=function(){
 				Step3.view.insurance_option_daily(
 					insurancename
 					,description
-					,subdesc1
-					,subdesc2
-					,subdesc3
 					,rcmInsuranceOptions[i].id
 					,extradesc
 					,fees
@@ -184,9 +175,6 @@ Step3.controller.insurance_options=function(){
 				Step3.view.insurance_option_percentage(
 					insurancename
 					,description
-					,subdesc1
-					,subdesc2
-					,subdesc3
 					,rcmInsuranceOptions[i].id
 					,extradesc
 					,fees
@@ -202,9 +190,6 @@ Step3.controller.insurance_options=function(){
 			Step3.view.insurance_option_unknown(
 				insurancename
 				,description
-				,subdesc1
-				,subdesc2
-				,subdesc3
 				,rcmInsuranceOptions[i].id
 				,fees
 				,extradesc

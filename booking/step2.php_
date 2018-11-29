@@ -240,7 +240,7 @@ Step3.data.popups=<?php echo $pop_content?>;
 			
 			</script>
 			<script type="text/html" id="km_charges_header_html">
-			<h2>MILEAGE PACKAGES</h2>
+			<h2>Pre-Paid Mileage</h2>
 			%content
 					
 			</script>
@@ -426,74 +426,53 @@ Step3.data.popups=<?php echo $pop_content?>;
                 </script>
 			<script type="text/html" id="insurance_option_daily_html">
 				<div class="option">
-					<div class="option-desc">
-						<span class="check-wrap">
-							<input
-								%checked
-								type="radio"
-								name="Insurance"
-								insurance_name="%name"
-								id="Insurance%id"
-								value="%id"
-								onchange="Step3.controller.calculate_totals()"
-								/>
-						</span>
-						<span class="option-text"><a %pop>%desc</a></span>						
-						<span class="total-price" id="InsuranceTotal%id">$%total</span>
-					</div>
-					<ul class="sub-option-desc">
-						%subdesc1
-						%subdesc2
-						%subdesc3
-					</ul>
+					<span class="check-wrap">
+						<input
+							%checked
+							type="radio"
+							name="Insurance"
+							insurance_name="%name"
+							id="Insurance%id"
+							value="%id"
+							onchange="Step3.controller.calculate_totals()"
+							/>
+					</span>
+					<span class="option-text"><a %pop>%desc</a></span>						
+					<span class="total-price" id="InsuranceTotal%id">$%total</span>
 				</div>
 			</script>
 			<script type="text/html" id="insurance_option_percentage_html">
 				<div class="option">
-					<div class="option-desc">
-						<span class="check-wrap">
-							<input
-								%checked
-								type="radio"
-								name="Insurance"
-								insurance_name="%name"
-								id="Insurance%id"
-								value="%id"
-								onchange="Step3.controller.calculate_totals()"
-								/>
-						</span>
-						<span class="option-text"><a %pop>%desc</a></span>						
-						<span class="total-price" id="InsuranceTotal%id">$%total</span>
-					</div>
-					<ul class="sub-option-desc">
-						%subdesc1
-						%subdesc2
-						%subdesc3
-					</ul>
+					<span class="check-wrap">
+						<input
+							%checked
+							type="radio"
+							name="Insurance"
+							insurance_name="%name"
+							id="Insurance%id"
+							value="%id"
+							onchange="Step3.controller.calculate_totals()"
+							/>
+					</span>
+					<span class="option-text"><a %pop>%desc</a></span>						
+					<span class="total-price" id="InsuranceTotal%id">$%total</span>
 				</div>
 			</script>
 			<script type="text/html" id="insurance_option_unknown_html">
 				<div class="option">
-					<div class="option-desc">
-						<span class="check-wrap">
-							<input
-								%checked
-								type="radio"
-								name="Insurance"
-								insurance_name="%name"
-								id="Insurance%id"
-								value="%id"
-								onchange="Step3.controller.calculate_totals()"
-								/>
-						</span>
-						<span class="option-text"><a %pop>%desc</a></span>						
-						<span class="total-price" id="InsuranceTotal%id">$%total</span>
-					</div>
-					<ul class="sub-option-desc">
-						%subdesc1
-						%subdesc2
-						%subdesc3
-					</ul>
+					<span class="check-wrap">
+						<input
+							%checked
+							type="radio"
+							name="Insurance"
+							insurance_name="%name"
+							id="Insurance%id"
+							value="%id"
+							onchange="Step3.controller.calculate_totals()"
+							/>
+					</span>
+					<span class="option-text"><a %pop>%desc</a></span>						
+					<span class="total-price" id="InsuranceTotal%id">$%total</span>
 				</div>
 			</script>
 		
