@@ -264,6 +264,13 @@ Step3.controller.km_charges_options=function(){
 	for (var i=rcmKmCharges.length-1 ; i>=0 ; i--) {
 		extradesc = rcmKmCharges[i].notes;
 		description = rcmKmCharges[i].notes && rcmKmCharges[i].notes.indexOf('.html') < 0  ? rcmKmCharges[i].notes : rcmKmCharges[i].description;
+		
+		if (rcmKmCharges[i].totalamount == '0'){
+			
+			description = rcmKmCharges[i].notes && rcmKmCharges[i].notes.indexOf('.html') < 0  ? 'Free ' + rcmKmCharges[i].notes : 'Free ' + rcmKmCharges[i].description;
+
+		}
+		
 		numberofdays=parseFloat(rcmKmCharges[i].numberofdays);
 		if(rcmKmCharges[i].vehiclecategoryid!=rcmKmCharges[0].vehiclecategoryid&&rcmKmCharges[i].vehiclecategoryid!='0')
 		{
