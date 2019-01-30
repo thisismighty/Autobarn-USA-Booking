@@ -1,0 +1,88 @@
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] starting...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] using php mail
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] to header call:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] reservations@travellers-autobarn.com
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] to header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] 
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com.au>
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] reply-to header call: natasha.jones@statravel.com
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] cc header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] 
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] bcc header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] fulvio@em.com.au
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Melbourne, 27 December 2018<br/>
+	<strong>DROP OFF:</strong> Sydney, 21 January 2019<br/>
+	<strong>VEHICLE:</strong> Stationwagon (2-5 persons)<br/>
+	<strong>BOND:</strong> Protection Plus $0 Bond<br/>
+	<strong>AGENT CODE:</strong> STAUK012<br/>
+	<strong>AGENT NAME:</strong> Natasha<br/>
+	<strong>AGENT EMAIL:</strong> natasha.jones@statravel.com<br/>
+	<strong>NOTES:</strong> Please confirm asap
+</p>
+<p>Thanks,</p>
+...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Melbourne, 27 December 2018
+	DROP OFF: Sydney, 21 January 2019
+	VEHICLE: Stationwagon (2-5 persons)
+	BOND: Protection Plus $0 Bond
+	AGENT CODE: STAUK012
+	AGENT NAME: Natasha
+	AGENT EMAIL: natasha.jones@statravel.com
+	NOTES: Please confirm asap
+
+Thanks,
+...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] end: success
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] starting...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] using php mail
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] to header call:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] natasha.jones@statravel.com
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] to header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] 
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] from header call: reservations@travellers-autobarn.com
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] reply-to header call: reservations@travellers-autobarn.com
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] cc header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] 
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] bcc header set:
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] fulvio@em.com.au
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Melbourne, 27 December 2018<br/>
+	<strong>DROP OFF:</strong> Sydney, 21 January 2019<br/>
+	<strong>VEHICLE:</strong> Stationwagon (2-5 persons)<br/>
+	<strong>BOND:</strong> Protection Plus $0 Bond<br/>
+	<strong>AGENT CODE:</strong> STAUK012<br/>
+	<strong>AGENT NAME:</strong> Natasha<br/>
+	<strong>AGENT EMAIL:</strong> natasha.jones@statravel.com<br/>
+	<strong>NOTES:</strong> Please confirm asap
+</p>
+<p>Thanks,</p>
+...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Melbourne, 27 December 2018
+	DROP OFF: Sydney, 21 January 2019
+	VEHICLE: Stationwagon (2-5 persons)
+	BOND: Protection Plus $0 Bond
+	AGENT CODE: STAUK012
+	AGENT NAME: Natasha
+	AGENT EMAIL: natasha.jones@statravel.com
+	NOTES: Please confirm asap
+
+Thanks,
+...
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-06 21:29:00 91.220.25.5 /b2b/onrequest.php?carsizeid=19&categoryfriendlydescription=Stationwagon%20(2-5%20persons)] end: success

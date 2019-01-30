@@ -1,0 +1,90 @@
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] starting...
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] using php mail
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] to header call:
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] franziska.dobler@statravel.com
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] to header set:
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] 
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] reply-to header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] cc header set:
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] 
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] bcc header set:
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] fulvio@em.com.au
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] body is <html>
+	<head>
+		<META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+	</HEAD>
+	<body style='background-color:#FFFFFF;scrollbar-3dlight-color:#000000;scrollbar-arrow-color:#4D6185;scrollbar-base-color:#BDD1FB;scrollbar-darkshadow-color:#000000; scrollbar-face-color:#B4BDC5;   scrollbar-highlight-color:#ffffff;scrollbar-track-color:#BDD1FB; scrollbar-shadow-color:#BDD1FB;'>
+		<center>
+			<img src='http://secure.rentalcarmanager.com.au/DB/NZAutobarn68//logo.gif' alt="">
+		</center>
+		<table
+			align='center' bgcolor='#ffffff' cellpadding='2' cellspacing='0' width='600'
+			style='border:solid windowtext 1.0pt; border-color:rgb(248, 151, 40);border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:13px;'>
+			<tr>
+				<td colspan='3'
+					style='background-color:rgb(248,151,40);color:#fff;font-size:15px;font-weight:bold;'>
+					THIS IS AN EMAIL CONFIRMATION FOR YOUR BOOKING
+				</td>
+			</tr>
+			<tr>
+				<td colspan='3'>
+					<strong>PLEA...
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] altbody is This is an email confirmation for your booking
+PLEASE PRINT THIS PAGE FOR FUTURE REFERENCE
+Agent Information
+Booking Agency:	STA Germany   ErlangenVoucher/Folder Number:	1229107Agent Email: 	franziska.dobler@statravel.comCustomer information
+Name: 	Kevin ValleeEmail: 	ann-kathrin-buslei@web.deConfirmation Number:U-81562Vehicle Category:	Hitop CampervanPICK-UP DETAILS
+Pick Location:	Brisbane360 Nudgee Road HendraPhone:	1800 674 374
+Pick date :	01/02/2019DROP-OFF DETAILS
+Drop Location:	Sydney1C Mc...
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] subject is Booking confirmation with Travellers Autobarn - Australia
+[2018-12-29 03:31:19 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-81562&val22=franziska.dobler@statravel.com] end: success
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] starting...
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] using php mail
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] to header call:
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] to header set:
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] 
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] reply-to header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] cc header set:
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] 
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] bcc header set:
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] fulvio@em.com.au
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] body is <html>
+	<head>
+		<META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+	</HEAD>
+	<body style='background-color:#FFFFFF;scrollbar-3dlight-color:#000000;scrollbar-arrow-color:#4D6185;scrollbar-base-color:#BDD1FB;scrollbar-darkshadow-color:#000000; scrollbar-face-color:#B4BDC5;   scrollbar-highlight-color:#ffffff;scrollbar-track-color:#BDD1FB; scrollbar-shadow-color:#BDD1FB;'>
+		<center>
+			<img src='http://secure.rentalcarmanager.com.au/DB/NZAutobarn68//logo.gif' alt="">
+		</center>
+		<table
+			align='center' bgcolor='#ffffff' cellpadding='2' cellspacing='0' width='600'
+			style='border:solid windowtext 1.0pt; border-color:rgb(248, 151, 40);border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:13px;'>
+			<tr>
+				<td colspan='3'
+					style='background-color:rgb(248,151,40);color:#fff;font-size:15px;font-weight:bold;'>
+					THIS RESERVATION WAS CANCELLED
+				</td>
+			</tr>
+			<tr>
+				<td colspan='3'>
+					This is a BOOKING CANCELLATI...
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] altbody is This reservation was cancelled 	
+This is a BOOKING CANCELLATION notification to inform you that the
+following booking details are now cancelled. 	
+Agent Information	
+Booking Agency:	STA United Kingdom   Bournemouth	
+Voucher/Folder Number:	3971351	
+Agent Email: 	luce.brophy@statravel.com	
+Customer information	
+Name: 	Jack McFaul	
+Email: 	mcfaul95@gmail.com	
+Confirmation Number:U-79114	
+Vehicle Category:	Kuga Campervan	
+PICK-UP DETAILS	
+Pick Location:	Cairns123 Bunda Street Cairns	
+Phone:	1800 674...
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] subject is Your booking with Travellers Autobarn - Australia was cancelled
+[2018-12-29 22:43:34 91.220.25.5 /b2b/booking-confirmation-cancel.php?va11=U-79114&val22=luce.brophy@statravel.com] end: success

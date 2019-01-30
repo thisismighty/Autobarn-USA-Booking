@@ -8,7 +8,21 @@ var Step5={
 			oAPI.GetURL(Step5.data.ReservationRef,'frmAuric');
 		},
 		confirmation:function(){
-			window.location.href='step5.php';
+			Controller.hubspot_submit(
+				Step5.data.email,
+				Step5.data.PickupLocation_name,
+				Step5.data.PickupDate,
+				Step5.data.DropOffLocation_name,
+				Step5.data.ReturnDate,
+				Step5.data.CategoryType_name,
+				Step5.data.country_code + Step5.data.phone,
+				Step5.data.notraveling,
+				'customer',
+				Step5.data.firstname,
+				Step5.data.lastname,
+				parseFloat(Step5.data.total_price) + parseFloat(Step5.data.total_gst)
+			);
+			window.location.href='step5.php';		
 		}
 	}
 };

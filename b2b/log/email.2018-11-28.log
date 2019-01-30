@@ -1,0 +1,130 @@
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] starting...
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] using php mail
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] to header call:
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] to header set:
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] 
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] reply-to header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] cc header set:
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] 
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] bcc header set:
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] fulvio@em.com.au
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] body is <html>
+	<head>
+		<META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+	</HEAD>
+	<body style='background-color:#FFFFFF;scrollbar-3dlight-color:#000000;scrollbar-arrow-color:#4D6185;scrollbar-base-color:#BDD1FB;scrollbar-darkshadow-color:#000000; scrollbar-face-color:#B4BDC5;   scrollbar-highlight-color:#ffffff;scrollbar-track-color:#BDD1FB; scrollbar-shadow-color:#BDD1FB;'>
+		<center>
+			<img src='http://secure.rentalcarmanager.com.au/DB/NZAutobarn68//logo.gif' alt="">
+		</center>
+		<table
+			align='center' bgcolor='#ffffff' cellpadding='2' cellspacing='0' width='600'
+			style='border:solid windowtext 1.0pt; border-color:rgb(248, 151, 40);border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:13px;'>
+			<tr>
+				<td colspan='3'
+					style='background-color:rgb(248,151,40);color:#fff;font-size:15px;font-weight:bold;'>
+					THIS RESERVATION WAS CANCELLED
+				</td>
+			</tr>
+			<tr>
+				<td colspan='3'>
+					This is a BOOKING CANCELLATI...
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] altbody is This reservation was cancelled 	
+This is a BOOKING CANCELLATION notification to inform you that the
+following booking details are now cancelled. 	
+Agent Information	
+Booking Agency:	STA Germany   Wiesbaden	
+Voucher/Folder Number:	1245584	
+Agent Email: 	wiesbaden@statravel.de	
+Customer information	
+Name: 	Maximilian Mueller	
+Email: 	maximilian-c-mueller@web.de	
+Confirmation Number:U-81251	
+Vehicle Category:	Budgie Van	
+PICK-UP DETAILS	
+Pick Location:	Cairns123 Bunda Street Cairns	
+Phone:	1800 674...
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] subject is Your booking with Travellers Autobarn - Australia was cancelled
+[2018-11-28 22:26:21 145.253.121.50 /b2b/booking-confirmation-cancel.php?va11=U-81251&val22=wiesbaden@statravel.de] end: success
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] starting...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] using php mail
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] to header call:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] reservations@travellers-autobarn.com
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] to header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] 
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com.au>
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] reply-to header call: till@camperoase.de
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] cc header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] 
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] bcc header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] fulvio@em.com.au
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Melbourne, 1 December 2018<br/>
+	<strong>DROP OFF:</strong> Melbourne, 2 January 2019<br/>
+	<strong>VEHICLE:</strong> Hi5 Camper (2-5 berth)<br/>
+	<strong>BOND:</strong> Standard Protection $3000 Bond<br/>
+	<strong>AGENT CODE:</strong> camperoase<br/>
+	<strong>AGENT NAME:</strong> kolja<br/>
+	<strong>AGENT EMAIL:</strong> till@camperoase.de<br/>
+	<strong>NOTES:</strong> If it is only a bit later or just until end of december available, please also let me know. Clients are a bit flexible here... 
+</p>
+<p>Thanks,</p>
+...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Melbourne, 1 December 2018
+	DROP OFF: Melbourne, 2 January 2019
+	VEHICLE: Hi5 Camper (2-5 berth)
+	BOND: Standard Protection $3000 Bond
+	AGENT CODE: camperoase
+	AGENT NAME: kolja
+	AGENT EMAIL: till@camperoase.de
+	NOTES: If it is only a bit later or just until end of december available, please also let me know. Cli...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] end: success
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] starting...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] using php mail
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] to header call:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] till@camperoase.de
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] to header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] 
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] from header call: reservations@travellers-autobarn.com
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] reply-to header call: reservations@travellers-autobarn.com
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] cc header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] 
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] bcc header set:
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] fulvio@em.com.au
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Melbourne, 1 December 2018<br/>
+	<strong>DROP OFF:</strong> Melbourne, 2 January 2019<br/>
+	<strong>VEHICLE:</strong> Hi5 Camper (2-5 berth)<br/>
+	<strong>BOND:</strong> Standard Protection $3000 Bond<br/>
+	<strong>AGENT CODE:</strong> camperoase<br/>
+	<strong>AGENT NAME:</strong> kolja<br/>
+	<strong>AGENT EMAIL:</strong> till@camperoase.de<br/>
+	<strong>NOTES:</strong> If it is only a bit later or just until end of december available, please also let me know. Clients are a bit flexible here... 
+</p>
+<p>Thanks,</p>
+...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Melbourne, 1 December 2018
+	DROP OFF: Melbourne, 2 January 2019
+	VEHICLE: Hi5 Camper (2-5 berth)
+	BOND: Standard Protection $3000 Bond
+	AGENT CODE: camperoase
+	AGENT NAME: kolja
+	AGENT EMAIL: till@camperoase.de
+	NOTES: If it is only a bit later or just until end of december available, please also let me know. Cli...
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-11-28 23:09:48 1.136.111.145 /b2b/onrequest.php?carsizeid=26&categoryfriendlydescription=Hi5%20Camper%20(2-5%20berth)] end: success

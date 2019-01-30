@@ -1,0 +1,188 @@
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] starting...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] using php mail
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header call:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reservations@travellers-autobarn.com
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com.au>
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reply-to header call: michael.lasselin@gmail.com
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] cc header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] bcc header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] fulvio@em.com.au
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Sydney, 31 December 2018<br/>
+	<strong>DROP OFF:</strong> Sydney, 12 January 2019<br/>
+	<strong>VEHICLE:</strong> Chubby Camper (2 berth)<br/>
+	<strong>BOND:</strong> Standard Protection $3000 Bond<br/>
+	<strong>AGENT CODE:</strong> Campervanfinder<br/>
+	<strong>AGENT NAME:</strong> Campervanfinder<br/>
+	<strong>AGENT EMAIL:</strong> michael.lasselin@gmail.com<br/>
+	<strong>NOTES:</strong> I would like to book it please.
+
+ #124448
+Name: Nick Humphries
+Email: smoothalmond@gmail.com
+
+</p>
+<p>Thanks,</p>
+...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Sydney, 31 December 2018
+	DROP OFF: Sydney, 12 January 2019
+	VEHICLE: Chubby Camper (2 berth)
+	BOND: Standard Protection $3000 Bond
+	AGENT CODE: Campervanfinder
+	AGENT NAME: Campervanfinder
+	AGENT EMAIL: michael.lasselin@gmail.com
+	NOTES: I would like to book it please.
+
+ #124448
+Name: Nick Humphries
+Email: s...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] end: success
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] starting...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] using php mail
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header call:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] michael.lasselin@gmail.com
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] from header call: reservations@travellers-autobarn.com
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reply-to header call: reservations@travellers-autobarn.com
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] cc header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] bcc header set:
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] fulvio@em.com.au
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Sydney, 31 December 2018<br/>
+	<strong>DROP OFF:</strong> Sydney, 12 January 2019<br/>
+	<strong>VEHICLE:</strong> Chubby Camper (2 berth)<br/>
+	<strong>BOND:</strong> Standard Protection $3000 Bond<br/>
+	<strong>AGENT CODE:</strong> Campervanfinder<br/>
+	<strong>AGENT NAME:</strong> Campervanfinder<br/>
+	<strong>AGENT EMAIL:</strong> michael.lasselin@gmail.com<br/>
+	<strong>NOTES:</strong> I would like to book it please.
+
+ #124448
+Name: Nick Humphries
+Email: smoothalmond@gmail.com
+
+</p>
+<p>Thanks,</p>
+...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Sydney, 31 December 2018
+	DROP OFF: Sydney, 12 January 2019
+	VEHICLE: Chubby Camper (2 berth)
+	BOND: Standard Protection $3000 Bond
+	AGENT CODE: Campervanfinder
+	AGENT NAME: Campervanfinder
+	AGENT EMAIL: michael.lasselin@gmail.com
+	NOTES: I would like to book it please.
+
+ #124448
+Name: Nick Humphries
+Email: s...
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-25 12:59:43 193.82.236.235 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] end: success
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] starting...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] using php mail
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header call:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reservations@travellers-autobarn.com
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com.au>
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reply-to header call: jeani@camperoase.de
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] cc header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] bcc header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] fulvio@em.com.au
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Perth, 23 January 2019<br/>
+	<strong>DROP OFF:</strong> Perth, 4 February 2019<br/>
+	<strong>VEHICLE:</strong> Chubby Camper (2 berth)<br/>
+	<strong>BOND:</strong> Protection Plus $0 Bond<br/>
+	<strong>AGENT CODE:</strong> CamperOase<br/>
+	<strong>AGENT NAME:</strong> Kolja<br/>
+	<strong>AGENT EMAIL:</strong> jeani@camperoase.de<br/>
+	<strong>NOTES:</strong> Do you maybe have any Chubby Camper available for these dates for 2 people? Merry Christmas
+</p>
+<p>Thanks,</p>
+...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Perth, 23 January 2019
+	DROP OFF: Perth, 4 February 2019
+	VEHICLE: Chubby Camper (2 berth)
+	BOND: Protection Plus $0 Bond
+	AGENT CODE: CamperOase
+	AGENT NAME: Kolja
+	AGENT EMAIL: jeani@camperoase.de
+	NOTES: Do you maybe have any Chubby Camper available for these dates for 2 people? Merry Christmas
+
+Thanks,
+...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] end: success
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] starting...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] using php mail
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header call:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] jeani@camperoase.de
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] to header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] from header call: reservations@travellers-autobarn.com
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] reply-to header call: reservations@travellers-autobarn.com
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] cc header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] 
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] bcc header set:
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] fulvio@em.com.au
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] body is <p>Hi valued partner,</p>
+<p>Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:</p>
+<p>
+	<strong>PICK UP:</strong> Perth, 23 January 2019<br/>
+	<strong>DROP OFF:</strong> Perth, 4 February 2019<br/>
+	<strong>VEHICLE:</strong> Chubby Camper (2 berth)<br/>
+	<strong>BOND:</strong> Protection Plus $0 Bond<br/>
+	<strong>AGENT CODE:</strong> CamperOase<br/>
+	<strong>AGENT NAME:</strong> Kolja<br/>
+	<strong>AGENT EMAIL:</strong> jeani@camperoase.de<br/>
+	<strong>NOTES:</strong> Do you maybe have any Chubby Camper available for these dates for 2 people? Merry Christmas
+</p>
+<p>Thanks,</p>
+...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] altbody is Hi valued partner,
+Please see below the details of your booking request - please note at this
+	stage this is only a REQUEST and we will get back to you within 24 to 48 hours:
+
+	PICK UP: Perth, 23 January 2019
+	DROP OFF: Perth, 4 February 2019
+	VEHICLE: Chubby Camper (2 berth)
+	BOND: Protection Plus $0 Bond
+	AGENT CODE: CamperOase
+	AGENT NAME: Kolja
+	AGENT EMAIL: jeani@camperoase.de
+	NOTES: Do you maybe have any Chubby Camper available for these dates for 2 people? Merry Christmas
+
+Thanks,
+...
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] subject is Travellers Autobarn Australia Request Availablity
+[2018-12-25 21:29:23 152.115.133.170 /b2b/onrequest.php?carsizeid=28&categoryfriendlydescription=Chubby%20Camper%20(2%20berth)] end: success

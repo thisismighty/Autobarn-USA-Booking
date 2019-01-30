@@ -1,0 +1,84 @@
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] starting...
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] using php mail
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] to header call:
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] koeln@statravel.com
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] to header set:
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] 
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] reply-to header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] cc header set:
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] 
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] bcc header set:
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] fulvio@em.com.au
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] body is <html>
+	<head>
+		<META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+	</HEAD>
+	<body style='background-color:#FFFFFF;scrollbar-3dlight-color:#000000;scrollbar-arrow-color:#4D6185;scrollbar-base-color:#BDD1FB;scrollbar-darkshadow-color:#000000; scrollbar-face-color:#B4BDC5;   scrollbar-highlight-color:#ffffff;scrollbar-track-color:#BDD1FB; scrollbar-shadow-color:#BDD1FB;'>
+		<center>
+			<img src='http://secure.rentalcarmanager.com.au/DB/NZAutobarn68//logo.gif' alt="">
+		</center>
+		<table
+			align='center' bgcolor='#ffffff' cellpadding='2' cellspacing='0' width='600'
+			style='border:solid windowtext 1.0pt; border-color:rgb(248, 151, 40);border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:13px;'>
+			<tr>
+				<td colspan='3'
+					style='background-color:rgb(248,151,40);color:#fff;font-size:15px;font-weight:bold;'>
+					THIS IS AN EMAIL CONFIRMATION FOR YOUR BOOKING
+				</td>
+			</tr>
+			<tr>
+				<td colspan='3'>
+					<strong>PLEA...
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] altbody is This is an email confirmation for your booking
+PLEASE PRINT THIS PAGE FOR FUTURE REFERENCE
+Agent Information
+Booking Agency:	STA Germany   Cologne MitteVoucher/Folder Number:	1130362Agent Email: 	koeln@statravel.comCustomer information
+Name: 	Andreas RenfordtEmail: 	andreas.renfordt@freenet.deConfirmation Number:U-73552Vehicle Category:	Kuga CampervanPICK-UP DETAILS
+Pick Location:	Perth16 Adrian Street WelshpoolPhone:	1800 674 374
+Pick date :	22/01/2019DROP-OFF DETAILS
+Drop Location:	Perth16 Adr...
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] subject is Booking confirmation with Travellers Autobarn - Australia
+[2018-11-22 21:43:58 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73552&val22=koeln@statravel.com] end: success
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] starting...
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] using php mail
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] to header call:
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] koeln@statravel.com
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] to header set:
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] 
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] from header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] reply-to header call: Travellers Auto Barn <reservations@travellers-autobarn.com>
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] cc header set:
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] 
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] bcc header set:
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] fulvio@em.com.au
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] body is <html>
+	<head>
+		<META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+	</HEAD>
+	<body style='background-color:#FFFFFF;scrollbar-3dlight-color:#000000;scrollbar-arrow-color:#4D6185;scrollbar-base-color:#BDD1FB;scrollbar-darkshadow-color:#000000; scrollbar-face-color:#B4BDC5;   scrollbar-highlight-color:#ffffff;scrollbar-track-color:#BDD1FB; scrollbar-shadow-color:#BDD1FB;'>
+		<center>
+			<img src='http://secure.rentalcarmanager.com.au/DB/NZAutobarn68//logo.gif' alt="">
+		</center>
+		<table
+			align='center' bgcolor='#ffffff' cellpadding='2' cellspacing='0' width='600'
+			style='border:solid windowtext 1.0pt; border-color:rgb(248, 151, 40);border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:13px;'>
+			<tr>
+				<td colspan='3'
+					style='background-color:rgb(248,151,40);color:#fff;font-size:15px;font-weight:bold;'>
+					THIS IS AN EMAIL CONFIRMATION FOR YOUR BOOKING
+				</td>
+			</tr>
+			<tr>
+				<td colspan='3'>
+					<strong>PLEA...
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] altbody is This is an email confirmation for your booking
+PLEASE PRINT THIS PAGE FOR FUTURE REFERENCE
+Agent Information
+Booking Agency:	STA Germany   Cologne MitteVoucher/Folder Number:	1130362Agent Email: 	koeln@statravel.comCustomer information
+Name: 	Andreas RenfordtEmail: 	andreas.renfordt@freenet.deConfirmation Number:U-73426Vehicle Category:	Kuga CampervanPICK-UP DETAILS
+Pick Location:	Cairns123 Bunda Street CairnsPhone:	1800 674 374
+Pick date :	30/11/2018DROP-OFF DETAILS
+Drop Location:	Melbourne55 K...
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] subject is Booking confirmation with Travellers Autobarn - Australia
+[2018-11-22 21:49:54 145.253.121.50 /b2b/booking-confirmation-email.php?va11=U-73426&val22=koeln@statravel.com] end: success
