@@ -1,6 +1,4 @@
 <?php
-header('X-XSS-Protection:0');
-
 require 'bin/required.php';
 require 'etc/steps-conf.php';
 
@@ -95,7 +93,7 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 					</script>
 					
 					<script type="text/html" id="peoplegraphic_html">
-						<div class="featured adults">
+						<div class="featured adultt">
 							<img src="image/adult.png">
 							<span class="multi1">Adults: %numberofadults</span>
 						</div>
@@ -109,28 +107,6 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 						</div>
 						<div class="featured gas-cooker">
 							<img src="image/gascooker-sink.png">
-							<span class="multi1">Gas Cooker<br>& Sink</span>
-						</div>				
-					</script>
-					<script type="text/html" id="peoplegraphic_stationwagon_html">
-						<div class="featured adults">
-							<img src="image/adult.png">
-							<span class="multi1">Adults: %numberofadults</span>
-						</div>
-						<div class="featured tent">
-							<img src="image/tent.png">
-							<span class="multi1">Tent<br>Optional</span>
-						</div>
-						<div class="featured chairs">
-							<img src="image/chairs.png">
-							<span class="multi1">Chairs<br>Optional</span>
-						</div>
-						<div class="featured esky">
-							<img src="image/esky.png">
-							<span class="multi1">Esky<br>Optional</span>
-						</div>				
-						<div class="featured gas-cooker">
-							<img src="image/gascooker.png">
 							<span class="multi1">Gas Cooker<br>& Sink</span>
 						</div>				
 					</script>

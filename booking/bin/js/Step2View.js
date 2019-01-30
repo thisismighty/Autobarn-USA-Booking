@@ -90,7 +90,7 @@ Step2.view={
 			,available:available
 		});
 	},
-	peoplegraphic:function(categoryfriendlydescription, numberofadults,numberofchildren,numberoflargecases,numberofsmallcases){
+	peoplegraphic:function(numberofadults,numberofchildren,numberoflargecases,numberofsmallcases){
 		// if(numberofchildren<2){
 			// numberofchildren=2;
 		// }
@@ -105,34 +105,15 @@ Step2.view={
 				// }
 			// );
 		// }
-		switch(categoryfriendlydescription){
-			case "Stationwagon":
-			
-				return Template.run(
-					$('#peoplegraphic_stationwagon_html').html(),
-					{
-						numberofadults:numberofadults?( numberofadults>2 ? '2-' + numberofadults : numberofadults ):'2-5',
-						numberofchildren:numberofchildren,
-						numberoflargecases:numberoflargecases,
-						numberofsmallcases:numberofsmallcases,
-					}
-				);
-				
-			break;
-			default:
-				
-				return Template.run(
-					$('#peoplegraphic_html').html(),
-					{
-						numberofadults:numberofadults?( numberofadults>2 ? '2-' + numberofadults : numberofadults ):'N/A',
-						numberofchildren:numberofchildren,
-						numberoflargecases:numberoflargecases,
-						numberofsmallcases:numberofsmallcases,
-					}
-				);
-			break;
-				
-		}
+		return Template.run(
+			$('#peoplegraphic_html').html(),
+			{
+				numberofadults:numberofadults-1 + '-' + numberofadults,
+				numberofchildren:numberofchildren,
+				numberoflargecases:numberoflargecases,
+				numberofsmallcases:numberofsmallcases,
+			}
+		);
 	},
 	one_car:function(
 		imageurl,categoryfriendlydescription,vehicledescriptionurl

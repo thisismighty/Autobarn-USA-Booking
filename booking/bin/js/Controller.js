@@ -253,38 +253,6 @@ var Controller={
 			StateTax=0.105;
 		
 		return StateTax;
-	},	
-	hubspot_submit:function(email,pick_up_location,pick_up_date,drop_off_location,drop_off_date,vehicle_category,phone,number_of_adults,lifecyclestage,firstname,lastname,total_price_rentals){
-		
-		var val = $('#work_id').val();
-		var result=0;
-			
-		$.ajax({
-			url: 'bin/hubspot.php',
-			type: 'POST',
-			data: { 
-				"email" : email,
-				"pick_up_location" : pick_up_location,
-				"pick_up_date" : pick_up_date,
-				"drop_off_date" : drop_off_date,
-				"drop_off_location" : drop_off_location,
-				"vehicle_category" : vehicle_category,
-				"phone" : phone,
-				"number_of_adults" : number_of_adults,
-				"lifecyclestage" : lifecyclestage,
-				"firstname" : firstname,
-				"lastname" : lastname,
-				"total_price_rentals" : total_price_rentals.toFixed(2),
-			},
-			success: function (response) 
-			{
-				response = $.parseJSON(response);
-				result=response.result;
-				console.log('Hubspot result: ' + result);
-			}
-
-		});
-		
-		return result;
-	},	
+	},
+	
 };

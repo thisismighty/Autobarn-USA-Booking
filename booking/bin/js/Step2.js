@@ -385,7 +385,7 @@ var Step2={
 			ordered_cars = ordered_cars.concat(cars_on_request);
 			ordered_cars = ordered_cars.concat(cars_available);
 			ordered_cars = ordered_cars.concat(cars_not_available);
-			// cars = ordered_cars; //disable ordering
+			cars = ordered_cars;
 			
 			//if no cars
 			if(cars.length==0){
@@ -435,7 +435,7 @@ var Step2={
 					,cars[i].numberofdays
 					,cars[i].avgrate
 					,cars[i].avgrate*cars[i].numberofdays
-					,Step2.view.peoplegraphic(cars[i].categoryfriendlydescription, cars[i].numberofadults,cars[i].numberofchildren,cars[i].numberoflargecases,cars[i].numberofsmallcases)
+					,Step2.view.peoplegraphic(cars[i].numberofadults,cars[i].numberofchildren,cars[i].numberoflargecases,cars[i].numberofsmallcases)
 					,totaldiscount.html
 					,freedays.html
 					,relocfee.html

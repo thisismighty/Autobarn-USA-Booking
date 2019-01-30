@@ -1,5 +1,4 @@
 <?php
-header('X-XSS-Protection:0');
 
 require 'bin/required.php';
 require 'etc/steps-conf.php';

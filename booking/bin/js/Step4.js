@@ -41,7 +41,6 @@ var Step4={
 			var phone=Step4.controller.validate_phone($('#phone').val());
 			var email=Step4.controller.validate_email($('#email').val());
 			var notraveling=Step4.controller.validate_notraveling($('#notraveling').val());
-			var noadults=$('#notraveling').val();
 			if(firstname===false || lastname===false ){
 				error_messages.push('You must enter a first and last name');
 				$('#book_now_button').show();
@@ -88,22 +87,7 @@ var Step4={
 				}
 				$('#book_now_button').show();
 				return;
-			}else if(Step4.data.bookmode == 2){
-				Controller.hubspot_submit(
-					email,Step4.data.PickupLocation_name,
-					Step4.data.PickupDate,
-					Step4.data.DropOffLocation_name,
-					Step4.data.ReturnDate,
-					Step4.data.CategoryType_name,
-					country_code + phone,
-					noadults,
-					'lead',
-					firstname,
-					lastname,
-					parseFloat(Step4.data.total_price) + parseFloat(Step4.data.total_gst)
-				);
 			}
-			
 			Step4.controller._set_optional_extras();
 			Step4.controller._set_km_charges();
 			Step4.controller._set_insurance_options();
