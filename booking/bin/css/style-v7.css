@@ -258,6 +258,9 @@ main{ margin-bottom:40px;}
 	font-size: 12px;
 	line-height: normal;
 }
+.vechicle .features .featured.adults{
+	min-width: 60px;
+}
 @media screen and (max-width:767px){
 	#search-form{padding:20px;}
 	#search-form .close{top:0; right:0;}
