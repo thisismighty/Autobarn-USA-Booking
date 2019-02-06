@@ -131,7 +131,7 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 						</div>				
 						<div class="featured gas-cooker">
 							<img src="image/gascooker.png">
-							<span class="multi1">Gas Cooker<br>& Sink</span>
+							<span class="multi1">Gas Cooker<br>Optional</span>
 						</div>				
 					</script>
 					<?php /*
