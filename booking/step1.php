@@ -112,6 +112,28 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 							<span class="multi1">Gas Cooker<br>& Sink</span>
 						</div>				
 					</script>
+					<script type="text/html" id="peoplegraphic_kuga_html">
+						<div class="featured adults">
+							<img src="image/adult.png">
+							<span class="multi1">Adults: %numberofadults</span>
+						</div>
+						<div class="featured microwave">
+							<img src="image/microwafe.png">
+							<span class="multi1">Microwave</span>
+						</div>
+						<div class="featured fridge">
+							<img src="image/fridge.png">
+							<span class="multi1">Fridge</span>
+						</div>
+						<div class="featured gas-cooker">
+							<img src="image/gascooker-sink.png">
+							<span class="multi1">Gas Cooker<br>& Sink</span>
+						</div>				
+						<div class="featured solar-panel">
+							<img src="image/solar-panel.png">
+							<span class="multi1">Solar<br>Panel</span>
+						</div>				
+					</script>
 					<script type="text/html" id="peoplegraphic_stationwagon_html">
 						<div class="featured adults">
 							<img src="image/adult.png">
@@ -274,7 +296,7 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 						<span class="feature mandatoryfee_unknown %type">%name</span>
 					</script>
 					<script type="text/html" id="need_request_html">
-						<span class="need-request"><strong>AVAILABILITY ON REQUEST</strong> - The booking is only confirmed once you receive a confirmation email and the deposit has been charged.</span>
+						<span class="need-request"><strong>AVAILABILITY ON REQUEST</strong> - The booking is only confirmed once you receive a confirmation email and the down payment has been charged.</span>
 					</script>
 					<script type="text/html" id="unavailable_html">
 						<?php /* <span class="not-available">VEHICLE NOT AVAILABLE - Please select another one of our amazing campervans or change your dates.</span> */ ?>

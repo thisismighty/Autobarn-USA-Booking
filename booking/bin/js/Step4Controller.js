@@ -91,7 +91,7 @@ Step4.controller.validate_email=function(value){
 	return value;
 };
 Step4.controller.validate_notraveling=function(value){
-	value=value+0;
+	value=parseFloat(value)+0;
 	if(isNaN(value)){
 		return false;
 	}

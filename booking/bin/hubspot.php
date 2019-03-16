@@ -52,6 +52,24 @@ function HS_Form_Submit($pageName,$Hubspot_Portal_ID,$formGuid,$PropertiesArray)
 	}
 }
 
+function convert_value($carname){
+	
+	$value="";
+	switch($carname){
+		case "Stationwagon":
+				$value="Station Wagon";
+			break;
+		case "Kuga Campervan":
+				$value="Kuga Campervan";
+			break;
+		case "Hitop Campervan":
+				$value="Hitop Campervan";
+			break;
+	}
+	
+	return $value;
+}
+
 function date_convert($date='01/01/2001'){	
 	//Convert dates from d/m/y to Hubspot time stamp
 	$originalDate = trim($date);
@@ -75,7 +93,7 @@ $Contact_Properties['pick_up_date'] = date_convert($_REQUEST['pick_up_date']); /
 $Contact_Properties['drop_off_date'] = date_convert($_REQUEST['drop_off_date']); //UTC UNIX timestamp format
 $Contact_Properties['drop_off_location'] = $_REQUEST['drop_off_location']; 
 
-$Contact_Properties['vehicle_category'] = $_REQUEST['vehicle_category']; //insert vehicle type Kuga Campervan or Hitop Campervan
+$Contact_Properties['vehicle_category'] = convert_value($_REQUEST['vehicle_category']); //insert vehicle type Kuga Campervan or Hitop Campervan
 
 $Contact_Properties['phone'] = $_REQUEST['phone'];
 $Contact_Properties['number_of_adults'] = $_REQUEST['number_of_adults'];

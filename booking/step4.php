@@ -130,7 +130,7 @@ if($_SESSION['bookmode']==1)
 										<label for="" class="col-sm-4 col-form-label">Payment Type:</label>
 										<div class="col-sm-8">
 											<select id="">
-												<option value="">Deposit Only</option>
+												<option value="">Down payment Only</option>
 												<option value="">Pickup</option>
 											</select>
 										</div>
@@ -180,7 +180,7 @@ if($_SESSION['bookmode']==1)
 									
 									<?php // if($_SESSION['car_availability']!=2): ?>
 									<div class="deposit row">
-										<div class="col-sm-8 col-xs-6">Pay Deposit Only:</div>
+										<div class="col-sm-8 col-xs-6">Pay Down Payment Only:</div>
 										<?php
 										$deposit=$_SESSION['total_deposit'];
 										$deposit=number_format((float)$deposit, 2, '.', '');

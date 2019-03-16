@@ -426,7 +426,7 @@ if(isset($_POST)){ //if booking request form submitted (step 3)
 										You can then decide if you would like to ahead with the booking.<br />
 									</div> */ ?>
 									<div class="col-xs-12">
-										<strong>AVAILABILITY ON REQUEST</strong> - The booking is only confirmed once you receive a confirmation email and the deposit – of $<?php echo $_SESSION['total_deposit'];?> - has been charged.
+										<strong>AVAILABILITY ON REQUEST</strong> - The booking is only confirmed once you receive a confirmation email and the down payment – of $<?php echo $_SESSION['total_deposit'];?> - has been charged.
 									</div>
 								</div>
 								
@@ -456,11 +456,11 @@ if(isset($_POST)){ //if booking request form submitted (step 3)
 										switch($_SESSION['bookmode']){
 											case 1: ?>	
 												Your quote has been emailed to you and is valid for 5 days.<br /> 
-												To book in the quote please contact us on 1 800 469 4790 or press on the BOOKING REQUEST link within the email quote. A deposit of $<?php echo $total_deposit;?> is required to book in this quote.
+												To book in the quote please contact us on 1 800 469 4790 or press on the BOOKING REQUEST link within the email quote. A down payment of $<?php echo $total_deposit;?> is required to book in this quote.
 											<?php break;
 											case 2:
 											default: ?>											
-												Deposit of <?php echo $total_deposit;?> has been paid.<br />
+												Down Payment of <?php echo $total_deposit;?> has been paid.<br />
 												An email confirmation has been sent to you.
 											<?php break;
 										}

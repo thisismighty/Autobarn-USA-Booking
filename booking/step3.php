@@ -426,7 +426,7 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 										<p>You can then decide if you would like to go ahead with the booking - NO OBLIGATION.</p> */ ?>
 										
 										<p>Thanks for your enquiry.</p>
-										<p>The booking request is only confirmed once you receive a confirmation email and the deposit - <strong>$<?php echo $_SESSION['total_deposit']; ?></strong> - has been charged - a response will be sent to you within 24 to 48 hours.</p>
+										<p>The booking request is only confirmed once you receive a confirmation email and the down payment - <strong>$<?php echo $_SESSION['total_deposit']; ?></strong> - has been charged - a response will be sent to you within 24 to 48 hours.</p>
 										
 										<p>Once confirmed you may pick-up your campervan/RV at any time between 10 am to 4 pm and return at any time between 9 am to 3 pm.</p>
 										
@@ -446,7 +446,7 @@ if(isset($_GET['debug'])){ echo "<pre>"; print_r($_SESSION); echo "</pre>"; }
 										<p>By clicking Book Now you will be directed to our secure payment area to enter your credit card details.</p>
 										<p>You may pick-up your campervan/RV at any time between 10 am to 4 pm and return at any time between 9 am to 3 pm.</p>
 
-										<p>A deposit of <strong><span id="deposit_currency"></span> $<!--<span id="deposit"></span>--><?php echo $_SESSION['total_deposit']; ?></strong> will be taken off your credit card to secure this booking.</p>
+										<p>A down payment of <strong><span id="deposit_currency"></span> $<!--<span id="deposit"></span>--><?php echo $_SESSION['total_deposit']; ?></strong> will be taken off your credit card to secure this booking.</p>
 										<span class="agreement"><input type="checkbox" name="tc" id="tc" value="yes" required /><label for="tc"> I have read and agreed to the <a href="/campervan-hire-usa/terms-and-conditions/" target="_blank" style="text-decoration: underline;">Terms and Conditions</a> and I am 21 years of age or older.</label></span>
 										
 										<div id="form-error-book-now" style="display:none"></div>

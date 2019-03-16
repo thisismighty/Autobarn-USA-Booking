@@ -189,7 +189,7 @@ class Template
 			</div>
 			<?php if($showDeposit): ?>
 			<div class="deposit">
-				<span class="deposit-title">Deposit Payable Now</span>
+				<span class="deposit-title">Down Payment Payable Now</span>
 				<div class="pricing">
 					<?php
 					$deposit=$_SESSION['total_deposit'];

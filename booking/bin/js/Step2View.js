@@ -106,6 +106,19 @@ Step2.view={
 			// );
 		// }
 		switch(categoryfriendlydescription){
+			case "Kuga Campervan":
+			
+				return Template.run(
+					$('#peoplegraphic_kuga_html').html(),
+					{
+						numberofadults:numberofadults?( numberofadults>2 ? '2-' + numberofadults : numberofadults ):'2-5',
+						numberofchildren:numberofchildren,
+						numberoflargecases:numberoflargecases,
+						numberofsmallcases:numberofsmallcases,
+					}
+				);
+				
+			break;
 			case "Stationwagon":
 			
 				return Template.run(
