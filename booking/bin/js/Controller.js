@@ -134,7 +134,8 @@ var Controller={
 			name = mandatoryFees[i].feedescription ? mandatoryFees[i].feedescription : mandatoryFees[i].name;
 			// name = name.replace('Government','Govt');
 			
-			if(name.includes('Govt') || name.includes('Government')){
+			// if(name.includes('Govt') || name.includes('Government')){
+			if(name.indexOf("Govt") >= 0 || name.indexOf('Government') >= 0){
 				altname = name + ' @ $'+ mandatoryFees[i].fees +' Per Day';
 				altname = altname.replace('Fees','Fee');
 			}else{				
@@ -149,7 +150,8 @@ var Controller={
 				case 'Daily':
 					subtotal=numberofdays*parseFloat(mandatoryFees[i].fees);
 					ret.html+=html_function_daily(name,altname,mandatoryFees[i].fees,subtotal);					
-					if(name.includes('Govt') || name.includes('Government')){						
+					// if(name.includes('Govt') || name.includes('Government')){						
+					if(name.indexOf("Govt") >= 0 || name.indexOf('Government') >= 0){						
 						ret.html_govt+=html_function_daily(name,altname,mandatoryFees[i].fees,subtotal);
 					}else if(!mandatoryFees[i].fees){
 						ret.html_incl_free+=html_function_daily(name,altname,mandatoryFees[i].fees,subtotal);
@@ -161,7 +163,8 @@ var Controller={
 				case 'Percentage':
 					subtotal=ret.total*(parseFloat(mandatoryFees[i].fees)/100);
 					ret.html+=html_function_percentage(name,subtotal);
-					if(name.includes('One-Way') || name.includes('Government')){						
+					// if(name.includes('One-Way') || name.includes('Government')){						
+					if(name.indexOf("One-Way") >= 0 || name.indexOf('Government') >= 0){						
 						ret.html_govt+=html_function_percentage(name,subtotal);
 					}else if(!mandatoryFees[i].fees){						
 						ret.html_incl_free+=html_function_percentage(name,subtotal);
@@ -173,7 +176,8 @@ var Controller={
 				default:
 					subtotal=parseFloat(mandatoryFees[i].fees);
 					ret.html+=html_function_unknown(mandatoryFees[i].type,name,parseFloat(mandatoryFees[i].fees));
-					if(name.includes('One-Way') || name.includes('Government')){						
+					// if(name.includes('One-Way') || name.includes('Government')){						
+					if(name.indexOf("One-Way") >= 0 || name.indexOf('Government') >= 0){						
 						ret.html_govt+=html_function_unknown(mandatoryFees[i].type,name,parseFloat(mandatoryFees[i].fees));
 					}else if(!mandatoryFees[i].fees){						
 						ret.html_incl_free+=html_function_unknown(mandatoryFees[i].type,name,parseFloat(mandatoryFees[i].fees));

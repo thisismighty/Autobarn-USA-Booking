@@ -480,6 +480,7 @@ if(isset($_POST)){ //if booking request form submitted (step 3)
 											$rest=$price+$gst-$_SESSION['total_deposit'];
 											$rest=number_format((float)$rest, 2, '.', '');
 											$rest_arr=explode('.',$rest);
+											$amount = $price+$gst;
 											?>
 											<span class="curr-symbol">$</span><span class="price-num"><?php echo isset($rest_arr[0])?$rest_arr[0]:0; ?></span><span class="small"><?php echo isset($rest_arr[1])?'.'.$rest_arr[1]:'.00'; ?></span><span class="curr-text">USD</span>
 											<span class="tax">Incl. Sales Tax: $<?php echo !empty($gst)?$gst:'0.00'; ?></span>
@@ -492,6 +493,24 @@ if(isset($_POST)){ //if booking request form submitted (step 3)
 							</div>
 						</div>
 					</div>
+					<?php
+						$price=$_SESSION['total_price'];
+						$gst=$_SESSION['total_gst'];
+						$gst=number_format((float)$gst, 2, '.', '');
+						$amount = $price+$gst;
+						$origDate = $_SESSION['PickupDate'];
+						
+						$date_array = explode("/",$origDate); // split the array
+						$var_day = $date_array[0]; //day seqment
+						$var_month = $date_array[1]; //month segment
+						$var_year = $date_array[2]; //year segment
+						$adv = "$var_month-$var_day-$var_year"; // join them together
+
+						// $adv = date("m-d-Y", strtotime($origDate));
+
+					?>
+					<img src="https://www.lushpalmcrew.com/?nid=368&oid=1&transaction_id=<?php echo $_SESSION['ReservationNo']; ?>&amount=<?php echo $amount; ?>&adv1=<?php echo $adv; ?>" width="1px" height="1px" />
+					
 					<div class="print content col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<a href="#" onClick="window.print();"><img src="image/print.png" /><span>Print this page</span></a>
 					</div>
