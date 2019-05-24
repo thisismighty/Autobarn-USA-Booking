@@ -215,20 +215,25 @@ var Step2={
 			$('#update-search').removeClass('disabled');
 			clearTimeout(Step2.controller.start_live_timeout);
 			View.errors.clean();
-			$('#PickupLocationID').html(
-				Step2.controller.load_location(
-					rcmLocationInfo,
-					$('#PickupLocationID').val(),
-					'ispickupavailable','Select a Pickup Location...'
-				)
-			);
-			$('#DropOffLocationID').html(
-				Step2.controller.load_location(
-					rcmLocationInfo,
-					$('#DropOffLocationID').val(),
-					'isdropoffavailable','Select a Return Location...'
-				)
-			);
+			
+			if(rcmLocationInfo.length){ //avoid blank selection
+			
+				$('#PickupLocationID').html(
+					Step2.controller.load_location(
+						rcmLocationInfo,
+						$('#PickupLocationID').val(),
+						'ispickupavailable','Select a Pickup Location...'
+					)
+				);
+				$('#DropOffLocationID').html(
+					Step2.controller.load_location(
+						rcmLocationInfo,
+						$('#DropOffLocationID').val(),
+						'isdropoffavailable','Select a Return Location...'
+					)
+				);
+			}
+			
 			var available=Controller.check_location_available(rcmLocationFees);
 			if(available.length>0){
 				Log.add('error available');
